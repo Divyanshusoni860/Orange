@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "historical": true,
+  "base": "EUR",
+  "date": "2025-07-11",
+  "rates": {
+    "USD": 1.086,
+    "GBP": 0.843,
+    "INR": 90.512,
+    "JPY": 156.78,
+    "AUD": 1.613
+  }
+}
