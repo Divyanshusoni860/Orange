@@ -1,0 +1,23 @@
+{
+  "name": "orange",
+  "version": "1.0.0",
+  "description": "A next step taken after Indigo and moving along with it. Advancing Data warehousing using SQL after going with python in ML/DL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyanshusoni860/Orange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divyanshusoni860/Orange/issues"
+  },
+  "homepage": "https://github.com/Divyanshusoni860/Orange#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
