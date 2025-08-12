@@ -1,0 +1,20 @@
+your_project/
+│── server.js              # Entry point
+│── .env                   # Secrets & config
+│── package.json
+│
+├── config/
+│   └── db.js               # (Optional) DB connection setup
+│
+├── middleware/
+│   ├── authMiddleware.js   # Protect routes
+│   └── roleMiddleware.js   # RBAC logic
+│
+├── models/
+│   └── User.js             # User schema/model
+│
+├── routes/
+│   └── authRoutes.js       # Login, signup, etc.
+│
+└── controllers/
+    └── authController.js   # Logic for login/signup
