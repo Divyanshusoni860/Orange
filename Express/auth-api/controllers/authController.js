@@ -23,7 +23,9 @@ const signup = async(req,res)=>{
     try{
         const hashedPassword = await bcrypt.hash(password,10);
 
-        const newUser = {username:cleanUsername, password:hashedPassword, role:"user"};
+        const role = cleanUsername === 'adminuser' ? 'admin' : 'user';
+
+        const newUser = {username:cleanUsername, password:hashedPassword, role};
         users.push(newUser);
         res.status(201).json({msg:"User created successfully"});
     }
